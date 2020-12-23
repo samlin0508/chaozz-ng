@@ -1,0 +1,9 @@
+<div class="sutra-content">
+    <div class="sutra-background"></div>
+    <div class="sutra-content-container">
+        <character-container *ngFor="let sutraCharacter of sutra.content; let i = index" [sutraCharacter]="sutraCharacter" [transcribedSutraCharacter]="sutra.transcribedContent[i]" [indexOfSutraCharacter]="i"></character-container>
+    </div>
+    <div class="sutra-submit-container">
+        <span class="sutra-submit" (click)="onSutraSubmit()">抄寫完畢</span>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+.sutra-cover-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(250, 207, 126);
+    position: relative;
+    background-color: #f8ebd2;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.sutra-cover-container > .sutra-cover-background {
+    color: rgb(236, 217, 192);
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 80%;
+    overflow: hidden;
+}
+
+.sutra-cover-container > .sutra-cover-foreground-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sutra-cover-container > .sutra-cover-foreground-container > .sutra-cover-foreground {
+    font-size: 120%;
+    font-weight: bolder;
+    padding: 10px;
+    width: 180px;
+    height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: rgb(207, 59, 5);
+}

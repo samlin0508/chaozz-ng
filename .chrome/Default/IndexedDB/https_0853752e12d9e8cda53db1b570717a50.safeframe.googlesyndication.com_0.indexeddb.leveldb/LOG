@@ -1,0 +1,5 @@
+2020/10/29-21:40:53.095 25373 Reusing MANIFEST /Users/samlin/source/chaozz-ng/.chrome/Default/IndexedDB/https_0853752e12d9e8cda53db1b570717a50.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/29-21:40:55.871 25007 Level-0 table #5: started
+2020/10/29-21:40:55.886 25007 Level-0 table #5: 439 bytes OK
+2020/10/29-21:40:55.902 25007 Delete type=0 #3
+2020/10/29-21:40:55.903 25007 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

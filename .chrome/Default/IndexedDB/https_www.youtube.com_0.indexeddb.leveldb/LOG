@@ -1,0 +1,8 @@
+2020/11/08-10:59:22.668 23e03 Reusing MANIFEST /Users/samlin/source/chaozz-ng/.chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/08-10:59:22.668 23e03 Recovering log #4
+2020/11/08-10:59:22.668 23e03 Reusing old log /Users/samlin/source/chaozz-ng/.chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2020/11/08-10:59:29.524 2bb73 Level-0 table #8: started
+2020/11/08-10:59:29.525 2bb73 Level-0 table #8: 0 bytes OK
+2020/11/08-10:59:29.536 2bb73 Delete type=0 #4
+2020/11/08-10:59:29.541 2bb73 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/08-10:59:29.541 2bb73 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

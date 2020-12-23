@@ -1,0 +1,20 @@
+<div class="character-container">
+    <div class="character">
+        <span class="sutra-character" [style.color]="displayTranscribingInput ? 'silver' : 'black'">{{sutraCharacter.character}}</span>
+        <input *ngIf="displayTranscribingInput" [id]="'transcribing-character-' + indexOfSutraCharacter" class="transcribing-character" type="text" value="" maxlength="1" [(ngModel)]="transcribedSutraCharacter.character" (keyup)="onKeyup()" [style.color]="highlightTranscribingInput ? 'red' : 'black'">
+    </div>
+    <div class="pinyin">
+        <div class="pinyin-container-1">
+            <span class="pinyin-1">{{sutraCharacter.pinyin1}}</span>
+            <span class="pinyin-2">{{sutraCharacter.pinyin2}}</span>
+            <span class="pinyin-3">{{sutraCharacter.pinyin3}}</span>
+            <span class="pinyin-4">{{sutraCharacter.pinyin4}}</span>
+        </div>
+        <div class="pinyin-container-2">
+            <span class="pinyin-5"></span>
+            <span class="pinyin-5"></span>
+            <span class="pinyin-5">{{sutraCharacter.pinyin5}}</span>
+            <span class="pinyin-5"></span>
+        </div>
+    </div>
+</div>

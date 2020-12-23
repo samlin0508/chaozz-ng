@@ -1,0 +1,6 @@
+<div class="sutra-cover-list">
+    <sutra-cover-container routerLink="/sutra" *ngFor="let sutra of sutraList.list; let i = index" [sutra]="sutra"></sutra-cover-container>
+</div>
+<div class="sutra-cover-list-more-container">
+    <span class="sutra-cover-list-more" (click)="onClickMore()">載入更多...</span>
+</div>

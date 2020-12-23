@@ -1,0 +1,22 @@
+.sutra-cover-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sutra-cover-list-more-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(250, 207, 126);
+    background-color: #f8ebd2;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sutra-cover-list-more-container > .sutra-cover-list-more {
+    display: block;
+}

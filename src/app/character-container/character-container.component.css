@@ -1,0 +1,86 @@
+.character-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-container > .character {
+    position: relative;
+}
+
+.character-container > .character > .sutra-character {
+    position: relative;
+    font-size: 350%;
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    color: silver;
+    display: block;
+    line-height: 1.7;
+}
+
+.character-container > .character > .transcribing-character {
+    font-size: 350%;
+    position: absolute;
+    background: transparent;
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    left: 0px;
+    top: 10px;
+    color: black
+}
+
+.character-container > .pinyin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-container > .pinyin > .pinyin-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-container > .pinyin > .pinyin-container-1 > .pinyin-1,
+.character-container > .pinyin > .pinyin-container-1 > .pinyin-2,
+.character-container > .pinyin > .pinyin-container-1 > .pinyin-3,
+.character-container > .pinyin > .pinyin-container-1 > .pinyin-4 {
+    display: block;
+    height: 15px;
+    width: 15px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    color: silver;
+}
+.character-container > .pinyin > .pinyin-container-1 > .pinyin-1 {
+    font-size: 200%;
+}
+
+.character-container > .pinyin > .pinyin-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.character-container > .pinyin > .pinyin-container-2 > .pinyin-5 {
+    display: block;
+    height: 15px;
+    width: 15px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-size: 200%;
+    color: silver;
+}
