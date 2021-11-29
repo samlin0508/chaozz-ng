@@ -9,6 +9,60 @@
     opacity: 0.2;
 }
 
+.sutra-content > .sutra-header-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.sutra-content > .sutra-header-container > .previous {
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+}
+
+.sutra-content > .sutra-header-container > .next {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+}
+
+.sutra-content > .sutra-header-container > .previous:hover,
+.sutra-content > .sutra-header-container > .next:hover {
+    border: solid 1px burlywood;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+.sutra-content > .sutra-header-container > .return {
+    display: block;
+    font-size: 150%;
+    border:  solid 1px burlywood;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.sutra-content > .sutra-header-container > .return:hover {
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+.sutra-content > .sutra-header-container > .return:active {
+    cursor: pointer;
+    background: transparent;
+    -webkit-user-select: none;
+}
+
 .sutra-content > .sutra-content-container {
     display: flex;
     flex-direction: row;

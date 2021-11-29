@@ -1,8 +1,8 @@
 import { SutraCharacter } from "./sutra-character";
 
 export interface Sutra {
+    uid?: string;
     name?: string;
-    contentInBackground?: string;
     content?: SutraCharacter[];
     transcribedContent?: SutraCharacter[];
     indexOfNextTranscribingCharacter?: number;

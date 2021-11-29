@@ -1,7 +1,15 @@
 <div class="character-container">
     <div class="character">
         <span class="sutra-character" [style.color]="displayTranscribingInput ? 'silver' : 'black'">{{sutraCharacter.character}}</span>
-        <input *ngIf="displayTranscribingInput" [id]="'transcribing-character-' + indexOfSutraCharacter" class="transcribing-character" type="text" value="" maxlength="1" [(ngModel)]="transcribedSutraCharacter.character" (keyup)="onKeyup()" [style.color]="highlightTranscribingInput ? 'red' : 'black'">
+        <input *ngIf="displayTranscribingInput" 
+        [id]="'transcribing-character-' + indexOfSutraCharacter" 
+        class="transcribing-character" 
+        type="text" 
+        value="" 
+        maxlength="1" 
+        [(ngModel)]="transcribedSutraCharacter.character" 
+        (keyup)="onKeyup()" 
+        [style.color]="highlightTranscribingInput ? 'red' : 'black'">
     </div>
     <div class="pinyin">
         <div class="pinyin-container-1">

@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Sutra } from '../sutra';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { SutraCover } from '../sutra-cover';
 
 @Component({
   selector: 'sutra-cover-container',
@@ -7,10 +7,15 @@ import { Sutra } from '../sutra';
   styleUrls: ['./sutra-cover-container.component.css']
 })
 export class SutraCoverContainerComponent implements OnInit {
-  @Input() sutra: Sutra;
+  @Input() sutraCover: SutraCover;
+  @Output('nameClick')
+  nameClickEventEmitter = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onNameClicked(): void {
+    this.nameClickEventEmitter.emit(this.sutraCover.uid);
+  }
 }

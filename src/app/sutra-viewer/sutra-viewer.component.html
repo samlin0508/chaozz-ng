@@ -1,7 +1,17 @@
 <div class="sutra-content">
     <div class="sutra-background"></div>
+    <div class="sutra-header-container">
+        <span class="previous" (click)="onPreviousClicked()">上一頁</span>
+        <span class="next" (click)="onNextClicked()">下一頁</span>
+        <span class="return" (click)="onReturnClicked()">返回列表</span>
+    </div>
     <div class="sutra-content-container">
-        <character-container *ngFor="let sutraCharacter of sutra.content; let i = index" [sutraCharacter]="sutraCharacter" [transcribedSutraCharacter]="sutra.transcribedContent[i]" [indexOfSutraCharacter]="i"></character-container>
+        <character-container *ngFor="let sutraCharacter of content; let i = index;" 
+        [sutraCharacter]="sutraCharacter" 
+        [transcribedSutraCharacter]="transcribedContent[i]" 
+        [indexOfSutraCharacter]="getIndexOfSutraCharacter(i)"
+        [indexOfFocusedSutraCharacter]="indexOfFocusedSutraCharacter"
+        (nextSutraCharacterFocus)="onNextSutraCharacterFocus($event)"></character-container>
     </div>
     <div class="sutra-submit-container">
         <span class="sutra-submit" (click)="onSutraSubmit()">抄寫完畢</span>

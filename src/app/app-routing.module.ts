@@ -7,6 +7,8 @@ const routes: Routes = [{
   path: 'sutra-cover', component: SutraCoverViewerComponent
 },{
   path: '', component: SutraViewerComponent
+},{
+  path: 'sutras/:uid', component: SutraViewerComponent
 }];
 
 @NgModule({

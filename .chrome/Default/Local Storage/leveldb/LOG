@@ -1,3 +1,12 @@
-2020/12/22-22:23:58.113 14703 Reusing MANIFEST /Users/samlin/source/chaozz-ng/.chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2020/12/22-22:23:58.114 14703 Recovering log #4
-2020/12/22-22:23:58.114 14703 Reusing old log /Users/samlin/source/chaozz-ng/.chrome/Default/Local Storage/leveldb/000004.log 
+2021/11/28-20:37:18.340 3203 Reusing MANIFEST /Users/samlin/source/chaozz-ng/.chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2021/11/28-20:37:18.342 3203 Recovering log #4
+2021/11/28-20:37:18.343 3203 Reusing old log /Users/samlin/source/chaozz-ng/.chrome/Default/Local Storage/leveldb/000004.log 
+2021/11/28-21:11:05.716 3e0f Level-0 table #8: started
+2021/11/28-21:11:05.738 3e0f Level-0 table #8: 12173 bytes OK
+2021/11/28-21:11:05.778 3e0f Delete type=0 #4
+2021/11/28-22:42:36.599 4933 Level-0 table #10: started
+2021/11/28-22:42:36.620 4933 Level-0 table #10: 41865 bytes OK
+2021/11/28-22:42:36.660 4933 Delete type=0 #7
+2021/11/28-23:29:18.782 4757 Level-0 table #12: started
+2021/11/28-23:29:18.808 4757 Level-0 table #12: 11377 bytes OK
+2021/11/28-23:29:18.856 4757 Delete type=0 #9
