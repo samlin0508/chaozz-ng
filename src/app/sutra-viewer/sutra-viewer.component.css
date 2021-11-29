@@ -73,8 +73,8 @@
 }
 
 .sutra-content > .sutra-submit-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     position: relative;
     display: flex;
     flex-direction: row;
