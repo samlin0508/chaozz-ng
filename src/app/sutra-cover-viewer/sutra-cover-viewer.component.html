@@ -1,4 +1,4 @@
 <div class="sutra-background"></div>
 <div class="sutra-cover-list">
-    <sutra-cover-container routerLink="/sutra" *ngFor="let sutraCover of sutraList; let i = index" [sutraCover]="sutraCover" (nameClick)="onNameClicked($event)"></sutra-cover-container>
+    <sutra-cover-container *ngFor="let sutraCover of sutraList; let i = index" [sutraCover]="sutraCover" (nameClick)="onNameClicked($event)"></sutra-cover-container>
 </div>
