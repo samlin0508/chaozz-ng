@@ -50,6 +50,8 @@
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .sutra-content > .sutra-header-container > .return:hover {

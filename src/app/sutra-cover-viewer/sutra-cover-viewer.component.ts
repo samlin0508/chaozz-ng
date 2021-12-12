@@ -21,14 +21,4 @@ export class SutraCoverViewerComponent implements OnInit {
     this.sutraService.getSutraList().subscribe(x => this.sutraList = x);
     this.titleService.setTitle("抄自在線上抄經推廣中心-經書列表");
   }
-
-  onNameClicked(uid: string): void {
-    this.router.navigate
-    (
-      [
-        "sutras", 
-        uid
-      ]
-    );
-  }
 }

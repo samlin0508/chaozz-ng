@@ -8,14 +8,8 @@ import { SutraCover } from '../sutra-cover';
 })
 export class SutraCoverContainerComponent implements OnInit {
   @Input() sutraCover: SutraCover;
-  @Output('nameClick')
-  nameClickEventEmitter = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit(): void {
-  }
-
-  onNameClicked(): void {
-    this.nameClickEventEmitter.emit(this.sutraCover.uid);
   }
 }

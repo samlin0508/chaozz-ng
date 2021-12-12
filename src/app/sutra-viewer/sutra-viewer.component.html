@@ -3,7 +3,7 @@
     <div class="sutra-header-container">
         <span class="previous" (click)="onPreviousClicked()">上一頁</span>
         <span class="next" (click)="onNextClicked()">下一頁</span>
-        <span class="return" (click)="onReturnClicked()">返回列表</span>
+        <a [routerLink]="['/', 'sutra-cover']" class="return">返回列表</a>
     </div>
     <div class="sutra-content-container">
         <character-container *ngFor="let sutraCharacter of content; let i = index;" 
